@@ -1,0 +1,413 @@
+
+section.banner {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#columnWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background: black;
+  overflow: hidden;
+  cursor: auto!important;
+
+}
+
+.column {
+  position: static;
+  width: 20%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.columnBg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.columnFg {
+  position: relative;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.info {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 20%;
+  height: 200px;
+}
+
+.cTxt {
+  display: block;
+  z-index: 200;
+  position: absolute;
+  bottom: 20px;
+  width: 20%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  z-index: 400;
+}
+
+#txt1 {
+  background-size: 65%;
+  background-image: url(txt_01.png);
+}
+
+#txt2 {
+  background-size: 50.24%;
+  background-image: url(txt_02.png);
+}
+
+#txt3 {
+  background-size: 93.17%;
+  background-image: url(txt_03.png);
+}
+
+#txt4 {
+  background-size: 47.56%;
+  background-image: url(txt_04.png);
+}
+
+#txt5 {
+  background-size: 49.51%;
+  background-image: url(txt_05.png);
+}
+
+.btnGt {
+  display: block;
+  bottom: 80px;
+  width: 20%;
+  height: 60px;
+  z-index: 410;
+  margin-bottom: 0.5rem;
+}
+
+.btnGtInner {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 60px;
+}
+
+#btnGtInner1 {
+  margin: 0 auto;
+  height: 100%;
+
+}
+
+#btnGtInner2 {
+  margin: 0 auto;
+  height: 100%;
+}
+
+#btnGtInner3 {
+  margin: 0 auto;
+  height: 100%;
+}
+
+#btnGtInner4 {
+  margin: 0 auto;
+  height: 100%;
+}
+
+#btnGtInner5 {
+  margin: 0 auto;
+  height: 100%;
+}
+
+#colbg1 {
+  background-image: url(bg_01_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+#colfg1 {
+  background-image: url(fg_01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#colbg2 {
+  background-image: url(bg_02_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+#colfg2 {
+  background-image: url(fg_02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#colbg3 {
+  background-image: url(bg_03_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#colfg3 {
+  background-image: url(fg_03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#colbg4 {
+  background-image: url(bg_04_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#colfg4 {
+  background-image: url(fg_04.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#colbg5 {
+  background-image: url(bg_05_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#colfg5 {
+  background-image: url(fg_05.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#gradient {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-image: url(gradBg.png);
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  pointer-events: none;
+}
+
+#closeGame {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -10;
+  opacity: 0;
+}
+
+
+#blackOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -10;
+  opacity: 0;
+}
+
+#overlay {
+  position: absolute;
+  width: 77.63%;
+  height: 77.916%;
+  min-width: 795px;
+  min-height: 438px;
+  max-width: 1590px;
+  max-height: 875px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -20;
+  opacity: 0;
+  cursor: pointer!important;
+}
+
+#countDownTxt {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  color: #FFF;
+  z-index: 920;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#headline {
+  position: absolute;
+  top: 16.16666%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 53.125%;
+  height: 25%;
+  pointer-events: none;
+}
+
+#headline_01 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(txt_headline_01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+
+#headline_02 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(txt_headline_02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+
+#headline_03 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(txt_headline_03.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+
+#logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 13vw;
+  height: 11.5vh;
+  background-image: url(logo_sd_gt.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 78%;
+  background-color: #b3282d;
+}
+
+#winScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#wsHeader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url(overlay_header.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+
+#wsBg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url(ws_badlands_bg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#wsFg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url(ws_badlands_fg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#ctaWrapper {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 70%;
+  width: 100%;
+  height: 100px;
+}
+
+#cta1 {
+  position: static!important;
+  width: 246px;
+  height: 50px;
+  background-color: #b3282d;
+  background-image: url(cta_txt_exploreSd.png);
+  background-position: center center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+
+#cta2 {
+  position: static!important;
+  width: 246px;
+  height: 50px;
+  background-color: #b3282d;
+  background-image: url(cta_txt_chooseScene.png);
+  background-position: center center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+
+#wsHeadline {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 22.85%;
+  background-image: url(txt_greatFind.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
